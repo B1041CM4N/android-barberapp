@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.barberapp.barberapp.Principal">
+
+    <item android:id="@+id/action_settings"
+        android:title="Calendario"
+        android:icon="@drawable/agenda"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/Action1"
+        android:title="Ventana de usuario"/>
+
+    <item android:id="@+id/Action2"
+        android:title="Cerrar sesión"/>
+
+    <item android:id="@+id/Action3"
+        android:title="Hora"
+        android:icon="@drawable/ic_action_name3"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/Action4"
+        android:title="Mapa"
+        android:icon="@drawable/ic_action_name2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/Action5"
+        android:title="Foto"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/Action6"
+        android:title="Back"
+        android:icon="@drawable/ic_action_name5"
+        app:showAsAction="always"/>
+
+</menu>

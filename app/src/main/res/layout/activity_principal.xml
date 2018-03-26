@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/madera1"
+    tools:context="com.barberapp.barberapp.Principal">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Ventana de administrador"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/btnMensajesUsuarios"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver mensajes de usuarios"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192"
+        android:background="#04B4AE"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/btnMensajesBarberos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver mensajes de barberos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        android:background="#04B4AE"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/btnReportes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ventana de reportes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406"
+        android:background="#04B4AE"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_margin="2dp"/>
+
+
+    <Button
+        android:id="@+id/DesconectarAdmin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#04B4AE"
+        android:fontFamily="casual"
+        android:text="Cerrar sesión"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936"
+        android:layout_margin="2dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

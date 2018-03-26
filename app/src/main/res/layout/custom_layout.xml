@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/carta" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nombre de usuario"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/txtNombreMensajeUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#000000"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/ttt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tipo"
+                android:textColor="#000000"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtTipoMensajeUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#000000"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/ttt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Asunto"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/txtDescripcionMensajeUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#000000"
+                android:fontFamily="casual"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

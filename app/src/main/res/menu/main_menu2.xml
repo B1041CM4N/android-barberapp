@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.barberapp.barberapp.AdminMain">
+
+    <item android:id="@+id/action_settings"
+        android:title="Ventana de barbero"/>
+
+    <item android:id="@+id/config"
+        android:title="Configurar horas de atención"
+        android:icon="@drawable/agenda"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/cerrar"
+        android:title="Cerrar sesión"/>
+
+    <item android:id="@+id/adminHorario"
+        android:title="Hora"
+        android:icon="@drawable/ic_action_name3"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/mapShow"
+        android:title="Mapa"
+        android:icon="@drawable/ic_action_name2"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/asiento"
+        android:title="Back"
+        android:icon="@drawable/asiento"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/backButton"
+        android:title="Back"
+        android:icon="@drawable/ic_action_name5"
+        app:showAsAction="always"/>
+
+</menu>

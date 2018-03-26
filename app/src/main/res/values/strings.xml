@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">BarberApp</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="title_activity_maps_d">Mapa</string>
+
+    <string name="prompt_user_id">Número de identificación</string>
+    <string name="prompt_email_id">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="error_invalid_user_id">Número de identificación inválido</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_server">Error en el servidor</string>
+    <string name="error_incorrect_user_id">Número de identificación no registrado</string>
+    <string name="error_incorrect_email">Email inválido</string>
+    <string name="error_network">Conexión de red no disponible</string>
+    <string name="error_invalid_password">Contraseña inválida</string>
+
+    <string-array name="comuna_array">
+        <item>Seleccione su comuna</item>
+        <item>Puente Alto</item>
+        <item>La Florida</item>
+    </string-array>
+
+    <string-array name="barberia_array">
+        <item>Seleccione Barbería</item>
+        <item>Barberia 1</item>
+        <item>Barberia 2</item>
+        <item>Barberia 3</item>
+    </string-array>
+
+    <string-array name="servicios_array">
+        <item>Corte de cabello</item>
+        <item>Afeitado</item>
+        <item>Corte de cabello y afeitado</item>
+        <item>Cejas</item>
+        <item>Corte de cabello y cejas</item>
+        <item>Cejas y afeitado</item>
+        <item>Servicio completo</item>
+    </string-array>
+
+    <string-array name="usuario_issue_array">
+        <item>Indique su motivo del mensaje</item>
+        <item>Sugerencia</item>
+        <item>Queja</item>
+    </string-array>
+
+    <string-array name="barbero_issue_array">
+        <item>Indique su motivo del mensaje</item>
+        <item>Sugerencia</item>
+        <item>Queja</item>
+        <item>Solicitud de nueva sede</item>
+    </string-array>
+
+    <string-array name="horas_programar_array">
+        <item>Inserte la hora que quiera programar</item>
+        <item>00:00:00</item>
+        <item>01:00:00</item>
+        <item>02:00:00</item>
+        <item>03:00:00</item>
+        <item>04:00:00</item>
+        <item>05:00:00</item>
+        <item>06:00:00</item>
+        <item>07:00:00</item>
+        <item>08:00:00</item>
+        <item>09:00:00</item>
+        <item>10:00:00</item>
+        <item>12:00:00</item>
+        <item>13:00:00</item>
+        <item>14:00:00</item>
+        <item>15:00:00</item>
+        <item>16:00:00</item>
+        <item>17:00:00</item>
+        <item>18:00:00</item>
+        <item>19:00:00</item>
+        <item>20:00:00</item>
+        <item>21:00:00</item>
+        <item>22:00:00</item>
+        <item>23:00:00</item>
+
+    </string-array>
+
+</resources>
