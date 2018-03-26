@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
     String HttpURL = "http://159.65.102.53/BarberAppDB/UserLogin.php";
     String HttpURL2 = "http://159.65.102.53/BarberAppDB/BarberLogin.php";
     String HttpURL3 = "http://159.65.102.53/BarberAppDB/AdminLogin.php";
+    // EJEMPLO
     Boolean CheckEditText;
     ProgressDialog progressDialog;
     HashMap<String,String> hashMap = new HashMap<>();
