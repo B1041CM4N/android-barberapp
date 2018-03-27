@@ -18,7 +18,7 @@ public class SQLite_OpenHelper extends SQLiteOpenHelper {
     String admin="create table admin(_ID integer primary key autoincrement, Nombre text, Password Text);";
     String admin2="insert into admin (Nombre, Password) values ('Christian','Administrador1.');";
     String admin3="insert into admin (Nombre, Password) values ('Marco','Administrador2.');";
-    String admin4="insert into admin (Nombre, Password) values ('Gabriel','Administrador3.');";
+    String admin4="insert into admin (Nombre, Password) values ('Ignacio','Administrador3.');";
 
     String query="create table usuarios(_ID integer primary key autoincrement, " +
             "Nombre text, " +
