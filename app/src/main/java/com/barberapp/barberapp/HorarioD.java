@@ -111,8 +111,8 @@ public class HorarioD extends AppCompatActivity implements View.OnClickListener 
     ArrayList<String> listItems = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
-    String HttpURL="http://159.65.102.53/BarberAppDB/InsertAsiento.php";
-    String HttpURL3="http://159.65.102.53/BarberAppDB/InsertAsiento2.php";
+    String HttpURL="http://www.barberapp.cl/BarberAppDB/InsertAsiento.php";
+    String HttpURL3="http://www.barberapp.cl/BarberAppDB/InsertAsiento2.php";
 
     Boolean CheckEditText;
     ProgressDialog progressDialog;
@@ -125,7 +125,7 @@ public class HorarioD extends AppCompatActivity implements View.OnClickListener 
     ListAdapter listAdapter;
     ProgressBar progressBar;
 
-    String HttpURL2 = "http://159.65.102.53/BarberAppDB/HorasList.php";
+    String HttpURL2 = "http://www.barberapp.cl/BarberAppDB/HorasList.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -288,7 +288,7 @@ public class HorarioD extends AppCompatActivity implements View.OnClickListener 
             String result="";
             try{
                 HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://159.65.102.53/BarberAppDB/ListAsiento.php");
+                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberAppDB/ListAsiento.php");
                 HttpResponse response=httpclient.execute(httppost);
                 HttpEntity entity = response.getEntity();
                 // Get our response as a String.

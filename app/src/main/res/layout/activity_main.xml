@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondomain"
+    android:padding="16dp"
     tools:context="com.barberapp.barberapp.MainActivity">
 
     <TextView
@@ -19,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.029"
         app:layout_constraintHorizontal_bias="0.502"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
@@ -38,8 +39,7 @@
         android:id="@+id/txtNombre"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Ingrese su Email"
+        android:hint="Correo electrónico"
         android:inputType="textWebEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -50,7 +50,7 @@
         android:textColorHint="#a6a6a6"
         android:background="#fff"
         android:textColor="#000"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -58,7 +58,7 @@
         android:id="@+id/txtPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Ingrese su contraseña"
+        android:hint="Contraseña"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -69,7 +69,7 @@
         android:textColorHint="#a6a6a6"
         android:background="#fff"
         android:textColor="#000"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -90,7 +90,7 @@
         android:id="@+id/btnIngresar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Conectarse como usuario común"
+        android:text="Conectarse como usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -99,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         android:background="#04B4AE"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -117,7 +117,7 @@
         app:layout_constraintVertical_bias="0.795"
         android:background="#04B4AE"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 

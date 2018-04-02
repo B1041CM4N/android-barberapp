@@ -60,7 +60,7 @@ public class Register_Owner extends AppCompatActivity implements Validator.Valid
 
     String nombreHolder, nombreLocalHolder, passwordHolder, emailHolder, telefonoHolder;
     String finalResult;
-    String HttpURL="http://159.65.102.53/BarberAppDB/BarberRegistration.php";
+    String HttpURL="http://www.barberapp.cl/BarberAppDB/BarberRegistration.php";
     Boolean CheckEditText;
     ProgressDialog progressDialog;
     HashMap<String,String>hashMap = new HashMap<>();
@@ -128,8 +128,10 @@ public class Register_Owner extends AppCompatActivity implements Validator.Valid
             String result="";
             try{
                 HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://159.65.102.53/BarberAppDB/ListLocal.php");
+                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberAppDB/ListLocal.php");
+                System.out.println(httppost.toString());
                 HttpResponse response=httpclient.execute(httppost);
+                System.out.println("Respuesta POST: "+response.toString());
                 HttpEntity entity = response.getEntity();
                 // Get our response as a String.
                 is = entity.getContent();

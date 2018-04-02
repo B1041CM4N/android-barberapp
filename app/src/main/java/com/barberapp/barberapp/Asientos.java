@@ -111,8 +111,8 @@ public class Asientos extends AppCompatActivity {
     ArrayList<String> listItems = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
-    String HttpURL="http://159.65.102.53/BarberAppDB/ModAsiento.php";
-    String HttpURL2="http://159.65.102.53/BarberAppDB/DeleteHoras.php";
+    String HttpURL="http://www.barberapp.cl/BarberAppDB/ModAsiento.php";
+    String HttpURL2="http://www.barberapp.cl/BarberAppDB/DeleteHoras.php";
 
     Boolean CheckEditText;
     ProgressDialog progressDialog;
@@ -125,7 +125,7 @@ public class Asientos extends AppCompatActivity {
     HashMap<String, List<String>> listDataChild;
 
     private ProgressDialog mprocessingdialog;
-    private static String url = "http://159.65.102.53/BarberAppDB/AsientosList2.php";
+    private static String url = "http://www.barberapp.cl/BarberAppDB/AsientosList2.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -272,7 +272,7 @@ public class Asientos extends AppCompatActivity {
             String result="";
             try{
                 HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://159.65.102.53/BarberAppDB/AsientosList.php");
+                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberAppDB/AsientosList.php");
                 HttpResponse response=httpclient.execute(httppost);
                 HttpEntity entity = response.getEntity();
                 // Get our response as a String.

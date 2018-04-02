@@ -108,7 +108,7 @@ public class Profile extends AppCompatActivity {
     ListAdapter listAdapte;
     ProgressBar progressBar;
 
-    String HttpURL2 = "http://159.65.102.53/BarberAppDB/HorasList.php";
+    String HttpURL2 = "http://www.barberapp.cl/BarberAppDB/HorasList.php";
 
     Spinner spinnerHorasDisponibles;
 
@@ -122,7 +122,7 @@ public class Profile extends AppCompatActivity {
     HashMap<String, List<String>> listDataChild;
 
     private ProgressDialog mprocessingdialog;
-    private static String url = "http://159.65.102.53/BarberAppDB/DisponibilidadList2.php";
+    private static String url = "http://www.barberapp.cl/BarberAppDB/DisponibilidadList2.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -220,7 +220,7 @@ public class Profile extends AppCompatActivity {
     //        String result="";
     //        try{
     //            HttpClient httpclient=new DefaultHttpClient();
-    //            HttpPost httppost= new HttpPost("http://159.65.102.53/BarberAppDB/DisponibilidadList.php");
+    //            HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberAppDB/DisponibilidadList.php");
     //            HttpResponse response=httpclient.execute(httppost);
     //            HttpEntity entity = response.getEntity();
                 // Get our response as a String.

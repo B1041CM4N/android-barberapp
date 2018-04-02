@@ -97,7 +97,7 @@ public class Configuracion extends AppCompatActivity {
     ArrayList<String> listItems = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
-    String HttpURL="http://159.65.102.53/BarberAppDB/insertMensajeIssue.php";
+    String HttpURL="http://www.barberapp.cl/BarberAppDB/insertMensajeIssue.php";
 
     Boolean CheckEditText;
     ProgressDialog progressDialog;
