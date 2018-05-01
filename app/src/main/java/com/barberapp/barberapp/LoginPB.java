@@ -32,7 +32,7 @@ public class LoginPB extends AppCompatActivity {
         lvMensajesBarberos = (ListView)findViewById(R.id.lvMensajesBarberos);
         btnBarberosVolver = (Button)findViewById(R.id.btnBarberosVolver);
 
-        getJSON("http://www.barberapp.cl/BarberAppDB/QuejasBarberosList.php");
+        getJSON("http://www.barberapp.cl/BarberApp/QuejasBarberosList.php");
 
         btnBarberosVolver.setOnClickListener(new View.OnClickListener() {
             @Override

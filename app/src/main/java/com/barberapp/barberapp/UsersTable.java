@@ -15,7 +15,7 @@ public class UsersTable extends AppCompatActivity{
     //ListView lvMensajesUsuarios;
     //EditText txtBuscarUsuario;
     //ArrayList<Subject> SubjectList = new ArrayList<Subject>();
-    String HttpURL = "http://www.barberapp.cl/BarberAppDB/QuejasList.php";
+    String HttpURL = "http://www.barberapp.cl/BarberApp/QuejasList.php";
     //ListAdapter listAdapter;
     //ProgressBar progressBar;
     //Button btnUsuariosVolver;

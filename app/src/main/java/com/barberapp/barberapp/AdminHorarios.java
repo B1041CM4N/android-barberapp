@@ -104,11 +104,11 @@ public class AdminHorarios extends AppCompatActivity {
     HashMap<String, List<String>> listDataChild;
 
     private ProgressDialog mprocessingdialog;
-    private static String url = "http://www.barberapp.cl/BarberAppDB/DisponibilidadList2.php";
+    private static String url = "http://www.barberapp.cl/BarberApp/DisponibilidadList2.php";
 
-    String HttpURL = "http://www.barberapp.cl/BarberAppDB/UpdateDireccion.php";
-    String HttpURL2 = "http://www.barberapp.cl/BarberAppDB/UpdateManana.php";
-    String HttpURL3 = "http://www.barberapp.cl/BarberAppDB/UpdateTarde.php";
+    String HttpURL = "http://www.barberapp.cl/BarberApp/UpdateDireccion.php";
+    String HttpURL2 = "http://www.barberapp.cl/BarberApp/UpdateManana.php";
+    String HttpURL3 = "http://www.barberapp.cl/BarberApp/UpdateTarde.php";
 
     String finalResult;
 

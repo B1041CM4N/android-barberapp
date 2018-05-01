@@ -126,10 +126,10 @@ public class Horario extends AppCompatActivity implements View.OnClickListener {
     ArrayList<String> listItems = new ArrayList<>();
     ArrayAdapter<String> adapter;
 
-    //String HttpURL="/BarberAppDB/InsertHora.php";
-    String HttpURL = "http://www.barberapp.cl/BarberAppDB/InsertHora.php";
-    String HttpURL2 = "http://www.barberapp.cl/BarberAppDB/HorasList.php";
-    String HttpURL3 = "http://www.barberapp.cl/BarberAppDB/DeleteSolicitud.php";
+    //String HttpURL="/BarberApp/InsertHora.php";
+    String HttpURL = "http://www.barberapp.cl/BarberApp/InsertHora.php";
+    String HttpURL2 = "http://www.barberapp.cl/BarberApp/HorasList.php";
+    String HttpURL3 = "http://www.barberapp.cl/BarberApp/DeleteSolicitud.php";
 
     ArrayList<Subject> SubjectList = new ArrayList<Subject>();
     ListAdapter listAdapter;
@@ -219,7 +219,7 @@ public class Horario extends AppCompatActivity implements View.OnClickListener {
         //        helper.cerrar();
 
                 //Toast.makeText(getApplicationContext(), "Se ha registrado el horario de atención", Toast.LENGTH_LONG).show();
-                //new CargarDatos().execute("http://www.barberapp.cl/BarberAppDB/registro.php?fecha="+txtFecha.getText().toString()+"&hora="+txtHora.getText().toString()+"&solicitud="+txtPeluqueros.getText().toString());
+                //new CargarDatos().execute("http://www.barberapp.cl/BarberApp/registro.php?fecha="+txtFecha.getText().toString()+"&hora="+txtHora.getText().toString()+"&solicitud="+txtPeluqueros.getText().toString());
 
                 CheckEditTextIsEmptyOrNot();
                 if(CheckEditText){
@@ -351,7 +351,7 @@ public class Horario extends AppCompatActivity implements View.OnClickListener {
             String result="";
             try{
                 HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberAppDB//BarberiaList.php");
+                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberApp//BarberiaList.php");
                 HttpResponse response=httpclient.execute(httppost);
                 HttpEntity entity = response.getEntity();
                 // Get our response as a String.

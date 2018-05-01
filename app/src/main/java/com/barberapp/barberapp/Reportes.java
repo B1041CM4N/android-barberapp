@@ -35,9 +35,9 @@ public class Reportes extends AppCompatActivity implements View.OnClickListener{
     TextView textViewReportes;
     Button btnReportesVolver;
 
-    String GET = "http://www.barberapp.cl/BarberAppDB/Reportes.php";
-    String GET2 = "http://www.barberapp.cl/BarberAppDB/Reportes2.php";
-    String GET3 = "http://www.barberapp.cl/BarberAppDB/Reportes3.php";
+    String GET = "http://www.barberapp.cl/BarberApp/Reportes.php";
+    String GET2 = "http://www.barberapp.cl/BarberApp/Reportes2.php";
+    String GET3 = "http://www.barberapp.cl/BarberApp/Reportes3.php";
 
     ObtenerWebService hiloconexion;
 
