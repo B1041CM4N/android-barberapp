@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Trazar ruta"
-            android:background="#04B4AE"
+            android:background="@color/colorButtons"
             android:textColor="#ffffff"
             android:fontFamily="casual"
             android:textStyle="bold"

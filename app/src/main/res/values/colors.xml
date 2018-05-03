@@ -13,4 +13,5 @@
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorDivider">#BDBDBD</color>
     <color name="colorHint">#292727</color>
+    <color name="colorButtons">#03A9F4</color>
 </resources>

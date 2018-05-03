@@ -11,7 +11,7 @@
         android:textSize="20dp"
         android:fontFamily="casual"
         android:textStyle="bold"
-        android:text="group"
+        android:text="Grupo"
         android:textColor="#FFF"
         android:background="#04B4AE"/>
 

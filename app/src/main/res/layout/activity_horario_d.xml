@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondobarbero"
+    android:background="@color/colorDivider"
     tools:context="com.barberapp.barberapp.HorarioD">
 
     <TextView
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Asignar asiento"
-                android:background="#04B4AE"
+                android:background="@color/colorButtons"
                 android:textColor="#ffffff"
                 android:fontFamily="casual"
                 android:textStyle="bold"
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Actualizar Información del usuario"
-                android:background="#04B4AE"
+                android:background="@color/colorButtons"
                 android:textColor="#ffffff"
                 android:fontFamily="casual"
                 android:textStyle="bold"

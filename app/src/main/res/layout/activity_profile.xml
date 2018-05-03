@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imagencliente"
+    android:background="@color/colorDivider"
     tools:context="com.barberapp.barberapp.Profile">
 
     <TextView
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/lunes"
                 android:layout_margin="2dp"/>
 
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/martes"
                 android:layout_margin="2dp"/>
 
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/miercoles"
                 android:layout_margin="2dp"/>
 
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/jueves"
                 android:layout_margin="2dp"/>
 
@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/viernes"
                 android:layout_margin="2dp"/>
 
@@ -106,7 +106,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/sabado"
                 android:layout_margin="2dp"/>
 
@@ -115,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#333333"
+                android:background="@color/colorPrimary"
                 app:srcCompat="@drawable/domingo"
                 android:layout_margin="2dp"/>
         </LinearLayout>

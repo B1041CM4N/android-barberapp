@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/madera1"
+    android:background="@color/colorDivider"
     tools:context="com.barberapp.barberapp.LoginPB">
 
     <TextView
@@ -43,7 +43,7 @@
         android:id="@+id/btnBarberosVolver"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#04B4AE"
+        android:background="@color/colorButtons"
         android:fontFamily="casual"
         android:text="Volver a la ventana principal"
         android:textColor="#ffffff"

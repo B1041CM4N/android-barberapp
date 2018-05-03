@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondobarbero"
+    android:background="@color/colorDivider"
     tools:context="com.barberapp.barberapp.Asientos">
 
     <TextView
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#04B4AE"
+                android:background="@color/colorButtons"
                 android:fontFamily="casual"
                 android:text="Liberar Asiento"
                 android:textColor="#ffffff"
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
-                android:background="#04B4AE"
+                android:background="@color/colorButtons"
                 android:fontFamily="casual"
                 android:text="Actualizar información"
                 android:textColor="#ffffff"
