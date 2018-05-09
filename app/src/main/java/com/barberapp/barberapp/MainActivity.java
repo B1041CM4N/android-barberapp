@@ -190,12 +190,9 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
             @Override
             protected void onPostExecute(String httpResponseMsg) {
                 super.onPostExecute(httpResponseMsg);
-
                 progressDialog.dismiss();
-
                 if (httpResponseMsg.equalsIgnoreCase("Comprobado")) {
                     finish();
-
                     Intent intent = new Intent(MainActivity.this, Profile.class);
                     intent.putExtra(UserEmail, email);
                     startActivity(intent);
