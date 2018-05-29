@@ -17,6 +17,7 @@
     <string name="error_incorrect_email">Email inválido</string>
     <string name="error_network">Conexión de red no disponible</string>
     <string name="error_invalid_password">Contraseña inválida</string>
+    <string name="email">Correo electrónico</string>
 
     <string-array name="comuna_array">
         <item>Seleccione su comuna</item>
