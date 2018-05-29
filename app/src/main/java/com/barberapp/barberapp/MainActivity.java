@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity implements Validator.Validat
     Button btnIngresar, btnIngresar2;
     String EmailHolder, PasswordHolder;
     String finalResult;
-    String HttpURL = "http://www.barberapp.cl/BarberApp/UserLogin.php";
-    String HttpURL2 = "http://www.barberapp.cl/BarberApp/BarberLogin.php";
-    String HttpURL3 = "http://www.barberapp.cl/BarberApp/AdminLogin.php";
+    String HttpURL = "https://www.barberapp.cl/BarberApp/UserLogin.php";
+    String HttpURL2 = "https://www.barberapp.cl/BarberApp/BarberLogin.php";
+    String HttpURL3 = "https://www.barberapp.cl/BarberApp/AdminLogin.php";
     // EJEMPLO
     Boolean CheckEditText;
     ProgressDialog progressDialog;

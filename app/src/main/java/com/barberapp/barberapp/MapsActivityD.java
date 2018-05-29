@@ -216,7 +216,7 @@ public class MapsActivityD extends AppCompatActivity implements OnMapReadyCallba
 
         @Override
         protected String doInBackground(Void... params) {
-            String strUrl = "http://www.barberapp.cl/BarberApp/json_locations.php";
+            String strUrl = "https://www.barberapp.cl/BarberApp/json_locations.php";
             URL url = null;
             StringBuffer sb = new StringBuffer();
             try {

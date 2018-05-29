@@ -52,7 +52,7 @@ public class Register extends AppCompatActivity implements Validator.ValidationL
 
     String nombre_Holder, password_Holder, email_Holder, telefono_Holder, comuna_Holder;
     String finalResult;
-    String HttpURL="http://www.barberapp.cl/BarberApp/UserRegistration.php";
+    String HttpURL="https://www.barberapp.cl/BarberApp/UserRegistration.php";
 
     CheckBox chkCondiciones;
     Button btnRegistrar;
@@ -130,7 +130,7 @@ public class Register extends AppCompatActivity implements Validator.ValidationL
             String result="";
             try{
                 HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://www.barberapp.cl/BarberApp/ComunaList.php");
+                HttpPost httppost= new HttpPost("https://www.barberapp.cl/BarberApp/ComunaList.php");
                 HttpResponse response=httpclient.execute(httppost);
                 HttpEntity entity = response.getEntity();
                 // Get our response as a String.

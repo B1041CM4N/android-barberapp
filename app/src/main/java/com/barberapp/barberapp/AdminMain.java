@@ -92,7 +92,7 @@ public class AdminMain extends AppCompatActivity implements View.OnClickListener
     String issueNombreBarberHolder, spinnerIssueBarberHolder, issueMensajeBarberHolder;
     String finalResult;
 
-    String HttpURL="http://www.barberapp.cl/BarberApp/InserBarberMessajeIssue.php"; //10.0.3.2 url localhost
+    String HttpURL="https://www.barberapp.cl/BarberApp/InserBarberMessajeIssue.php"; //10.0.3.2 url localhost
 
     Boolean CheckEditText;
     ProgressDialog progressDialog;
