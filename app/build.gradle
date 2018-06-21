@@ -6,8 +6,8 @@ android {
         applicationId "com.barberapp.barberapp"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 10
-        versionName "1.1"
+        versionCode 11
+        versionName "1.1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         useLibrary 'org.apache.http.legacy'
     }
@@ -27,7 +27,7 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
     implementation 'com.mobsandgeeks:android-saripaar:2.0.2'
     implementation 'com.google.code.gson:gson:2.8.0'

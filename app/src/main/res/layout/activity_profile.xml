@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorDivider"
+    android:orientation="vertical"
     tools:context="com.barberapp.barberapp.Profile">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calendario"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033"
         android:textColor="#ffffff"
         android:fontFamily="casual"
         android:textStyle="bold"
@@ -25,36 +21,22 @@
 
     <TextView
         android:id="@+id/userDisplay"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
         android:textColor="#fff"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintVertical_bias="0.057" />
+        android:visibility="invisible" />
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.122">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="63dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/lunes"
@@ -139,13 +121,14 @@
 
             <TextView
                 android:id="@+id/txtDate"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Despliegue de la fecha actual"
                 android:textColor="#fff"
                 android:fontFamily="casual"
                 android:textStyle="bold"
-                android:layout_margin="2dp"/>
+                android:layout_margin="2dp"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 
@@ -155,31 +138,19 @@
 
     <TextView
         android:id="@+id/ttttdwff"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Información de las barberías cercanas"
         android:textColor="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="0.253"
         android:fontFamily="casual"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
     <ExpandableListView
         android:id="@+id/list_horas"
-        android:layout_width="0dp"
-        android:layout_height="313dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="2dp"/>
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
