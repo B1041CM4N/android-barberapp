@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+    android:background="#D9D9D9"
     android:orientation="vertical"
     tools:context="com.barberapp.barberapp.Tipo_Registro">
 
@@ -22,8 +22,8 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        app:srcCompat="@mipmap/ic_logo_app" />
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/barberapplogo1" />
 
     <Button
         android:id="@+id/btnDueño"

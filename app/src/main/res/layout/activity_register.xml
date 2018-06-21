@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorDivider"
+    android:background="#D9D9D9"
     android:orientation="vertical"
     tools:context="com.barberapp.barberapp.Register">
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ingrese sus datos"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:textColorLink="@color/colorPrimaryDark"
         android:fontFamily="casual"
@@ -23,8 +23,8 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        app:srcCompat="@mipmap/ic_launcher_demo" />
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/barberapplogo1" />
 
     <EditText
         android:id="@+id/txtNombreUsuario"
