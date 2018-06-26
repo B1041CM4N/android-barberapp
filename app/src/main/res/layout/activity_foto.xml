@@ -14,9 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tomarse una foto"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
@@ -32,7 +31,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorButtons"
-        android:fontFamily="casual"
         android:text="Tomar captura"
         android:textColor="#ffffff"
         android:textStyle="bold"

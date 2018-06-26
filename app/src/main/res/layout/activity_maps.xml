@@ -36,7 +36,6 @@
             android:text="Trazar ruta"
             android:background="@color/colorButtons"
             android:textColor="#ffffff"
-            android:fontFamily="casual"
             android:textStyle="bold"
             android:layout_margin="2dp"/>
 

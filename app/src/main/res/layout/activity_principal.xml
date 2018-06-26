@@ -13,7 +13,6 @@
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
         android:text="Ventana de administrador"
         android:textAlignment="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
@@ -27,7 +26,6 @@
         android:text="Ver mensajes de usuarios"
         android:background="@color/colorButtons"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -38,7 +36,6 @@
         android:text="Ver mensajes de barberos"
         android:background="@color/colorButtons"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -49,7 +46,6 @@
         android:text="Ventana de reportes"
         android:background="@color/colorButtons"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -59,7 +55,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorButtons"
-        android:fontFamily="casual"
         android:text="Cerrar sesión"
         android:textColor="#ffffff"
         android:textStyle="bold"

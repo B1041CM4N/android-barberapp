@@ -21,8 +21,8 @@
     <ImageView
         android:id="@+id/logoBarber"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@mipmap/barberapplogo1" />
+        android:layout_height="200dp"
+        android:src="@drawable/barberapplogo1" />
 
     <EditText
         android:id="@+id/txtNombre"

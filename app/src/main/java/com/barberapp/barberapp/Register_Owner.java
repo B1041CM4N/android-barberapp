@@ -100,7 +100,6 @@ public class Register_Owner extends AppCompatActivity implements Validator.Valid
                     UserRegisterFunction(nombreHolder, nombreLocalHolder, passwordHolder, emailHolder, telefonoHolder);
 
                     Intent i = new Intent(Register_Owner.this,MainActivity.class);
-                    i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
                 }
                 else {

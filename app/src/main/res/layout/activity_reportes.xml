@@ -14,152 +14,104 @@
         android:layout_height="wrap_content"
         android:text="Ventana de reportes"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#fff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnSelect"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@color/colorButtons"
-                android:fontFamily="casual"
                 android:text="Consultar usuarios"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnSelect2"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:background="@color/colorButtons"
-                android:fontFamily="casual"
                 android:text="Consultar barberos"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnSelect3"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:layout_margin="2dp"
                 android:background="@color/colorButtons"
-                android:fontFamily="casual"
                 android:text="Consultar locales"
                 android:textColor="#ffffff"
                 android:textStyle="bold" />
 
-
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
 
             <EditText
                 android:id="@+id/txtUsuarioComuna"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#fff"
                 android:ems="10"
-                android:fontFamily="casual"
                 android:hint="Filtrar por comuna"
                 android:inputType="textPersonName"
                 android:textColor="#000"
                 android:textColorHint="#a6a6a6"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
 
 
             <EditText
                 android:id="@+id/txtBarberoLocal"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#fff"
                 android:ems="10"
-                android:fontFamily="casual"
                 android:hint="Filtrar por barbería"
                 android:inputType="textPersonName"
                 android:textColor="#000"
                 android:textColorHint="#a6a6a6"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
 
             <EditText
                 android:id="@+id/txtLocalPrecio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#fff"
                 android:ems="10"
-                android:fontFamily="casual"
                 android:hint="Ordenar por"
                 android:inputType="textPersonName"
                 android:textColor="#000"
                 android:textColorHint="#a6a6a6"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewReportes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
-        android:layout_weight="1"
-        android:fontFamily="casual"
         android:text="Aquí se muestra la información"
         android:textAlignment="center"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textStyle="bold" />
 
     <Button
     android:id="@+id/btnReportesVolver"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_weight="1"
     android:background="@color/colorButtons"
-    android:fontFamily="casual"
     android:text="Volver a la ventana principal"
     android:textColor="#ffffff"
     android:textStyle="bold"

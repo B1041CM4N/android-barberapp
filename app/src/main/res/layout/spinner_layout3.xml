@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:text="CustomerID"
         android:textColor="#000"
-        android:fontFamily="casual"
         android:textStyle="bold"/>
 
 </LinearLayout>

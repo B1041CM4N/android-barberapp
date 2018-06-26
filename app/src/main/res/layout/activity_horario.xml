@@ -13,44 +13,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SOLICITUD DE HORA"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:textAlignment="center"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/txtPongaNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:layout_weight="1"
-                android:background="#fff"
                 android:ems="10"
-                android:fontFamily="casual"
                 android:hint="Ingrese su nombre de usuario"
                 android:inputType="textPersonName"
                 android:textColor="#000"
                 android:textColorHint="#a6a6a6"
                 android:textStyle="bold" />
 
-        </LinearLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
@@ -61,7 +43,6 @@
                 android:text="Fecha"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
 
@@ -74,9 +55,7 @@
                 android:hint="Seleccione una fecha"
                 android:inputType="textPersonName"
                 android:textColorHint="#a6a6a6"
-                android:background="#fff"
                 android:textColor="#000"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:clickable="false"
                 android:layout_margin="2dp"/>
@@ -85,8 +64,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Button
@@ -97,7 +75,6 @@
                 android:text="Hora"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
 
@@ -110,9 +87,7 @@
                 android:hint="Seleccione una hora"
                 android:inputType="textPersonName"
                 android:textColorHint="#a6a6a6"
-                android:background="#fff"
                 android:textColor="#000"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:clickable="false"
                 android:layout_margin="2dp"/>
@@ -120,8 +95,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
@@ -129,8 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Seleccione una barbería"
-                android:textColor="#fff"
-                android:fontFamily="casual"
+                android:textColor="#000"
                 android:textStyle="bold"/>
 
             <Spinner
@@ -144,8 +117,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
@@ -153,8 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Seleccione un servicio"
-            android:textColor="#fff"
-            android:fontFamily="casual"
+            android:textColor="#000"
             android:textStyle="bold"/>
 
         <Spinner
@@ -170,55 +141,34 @@
 
     </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
             <Button
                 android:id="@+id/btnSolicitar"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Solicitar Hora de atención"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnBorrarSolicitud"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Cancelar soliticud"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
 
-        </LinearLayout>
 
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Aquí se despliegan las horas de atención solicitadas"
-        android:textColor="#fff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center"/>
 

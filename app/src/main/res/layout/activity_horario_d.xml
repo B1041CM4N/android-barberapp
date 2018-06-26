@@ -14,20 +14,13 @@
         android:layout_height="wrap_content"
         android:text="ASIGNADOR DE ASIENTOS"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#fff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
         android:orientation="horizontal">
 
         <TextView
@@ -35,8 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Asientos disponibles"
-            android:textColor="#fff"
-            android:fontFamily="casual"
+            android:textColor="#000"
             android:textStyle="bold"/>
 
         <Spinner
@@ -48,125 +40,69 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
-
             <EditText
                 android:id="@+id/txtNombreUsuarioAsignar"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:ems="10"
                 android:hint="Escriba nombre del usuario"
                 android:inputType="textPersonName"
                 android:textColorHint="#a6a6a6"
-                android:background="#fff"
                 android:textColor="#000"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
 
 
             <EditText
                 android:id="@+id/txtNombreAsiento"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:ems="10"
                 android:hint="Escriba nombre el asiento"
                 android:inputType="textPersonName"
                 android:textColorHint="#a6a6a6"
-                android:background="#fff"
                 android:textColor="#000"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/txtLocalSet"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:ems="10"
                 android:hint="Escriba el nombre del local"
                 android:inputType="textPersonName"
                 android:textColorHint="#a6a6a6"
-                android:background="#fff"
                 android:textColor="#000"
-                android:fontFamily="casual"
                 android:textStyle="bold"
-                android:layout_margin="2dp"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
+                android:layout_margin="2dp"/>
 
             <Button
                 android:id="@+id/btnAsignarAsiento"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Asignar asiento"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-
 
             <Button
                 android:id="@+id/btnActualizarUsuario"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Actualizar Información del usuario"
                 android:background="@color/colorButtons"
                 android:textColor="#ffffff"
-                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
-        </LinearLayout>
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Horas de atención solicitadas"
-        android:textColor="#fff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center" />
 

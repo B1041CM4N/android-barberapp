@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Calendario"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="#ffffff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
@@ -43,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/lunes"
                 android:layout_margin="2dp"/>
 
@@ -52,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/martes"
                 android:layout_margin="2dp"/>
 
@@ -61,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/miercoles"
                 android:layout_margin="2dp"/>
 
@@ -70,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/jueves"
                 android:layout_margin="2dp"/>
 
@@ -79,7 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/viernes"
                 android:layout_margin="2dp"/>
 
@@ -88,7 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/sabado"
                 android:layout_margin="2dp"/>
 
@@ -97,7 +96,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/colorPrimary"
+                android:background="#000"
                 app:srcCompat="@drawable/domingo"
                 android:layout_margin="2dp"/>
         </LinearLayout>
@@ -114,8 +113,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="La fecha actual:"
-                android:textColor="#fff"
-                android:fontFamily="casual"
+                android:textColor="#000"
                 android:textStyle="bold"
                 android:layout_margin="2dp"/>
 
@@ -124,8 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Despliegue de la fecha actual"
-                android:textColor="#fff"
-                android:fontFamily="casual"
+                android:textColor="#000"
                 android:textStyle="bold"
                 android:layout_margin="2dp"
                 android:textAlignment="center"/>
@@ -141,8 +138,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Información de las barberías cercanas"
-        android:textColor="#fff"
-        android:fontFamily="casual"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textAlignment="center"/>
 

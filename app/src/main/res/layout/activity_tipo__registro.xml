@@ -15,7 +15,6 @@
         android:text="Registro"
         android:textColor="#000"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:textAlignment="center"/>
 
@@ -23,7 +22,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        app:srcCompat="@mipmap/barberapplogo1" />
+        app:srcCompat="@drawable/barberapplogo1" />
 
     <Button
         android:id="@+id/btnDueño"
@@ -32,7 +31,6 @@
         android:text="Dueño de Peluquería/Barbería"
         android:background="@color/colorButtons"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 
@@ -43,7 +41,6 @@
         android:text="Cliente de peluquerías/barberías"
         android:background="@color/colorButtons"
         android:textColor="#ffffff"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:layout_margin="2dp"/>
 

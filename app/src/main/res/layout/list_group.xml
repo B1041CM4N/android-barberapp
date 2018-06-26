@@ -9,10 +9,9 @@
         android:layout_height="wrap_content"
         android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
         android:textSize="20dp"
-        android:fontFamily="casual"
         android:textStyle="bold"
         android:text="Grupo"
         android:textColor="#FFF"
-        android:background="#04B4AE"/>
+        android:background="@color/colorButtons"/>
 
 </LinearLayout>

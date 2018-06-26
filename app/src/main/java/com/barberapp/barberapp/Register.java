@@ -102,7 +102,6 @@ public class Register extends AppCompatActivity implements Validator.ValidationL
                     UserRegisterFunction(nombre_Holder,password_Holder,email_Holder,telefono_Holder,comuna_Holder);
 
                     Intent i = new Intent(Register.this, MainActivity.class);
-                    i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
                 }
                 else{
